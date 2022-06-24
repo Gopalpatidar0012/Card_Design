@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.main{
+    position: relative;
+}
+.main-container{
+    background-color: #874848;
+    width: 300px;
+    height: 500px;
+    border-radius: 60px;
+   position: absolute;
+   top:0;
+   left: 661px;
+   right: 0px;
+   bottom: 0px;
+   box-shadow: 1px 3px 8px 5px #e9ecef;
+   /* box-shadow: 10px 10px 5px rgb(175, 176, 176); */
+
+}
+
+
+.image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    top:50px;
+    left: 73px;
+    
+    box-shadow: 0px 8px 10px 0px #212529;
+
+}
+
+.status{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(92, 206, 92);
+    position: absolute;
+    top: 171px;
+    left: 198px;
+    border-radius: 9px;
+    top: 175px;
+    left: 186px;
+}
+
+.text{
+    background-color: rgb(255, 255, 255);
+    height: 266px;
+    width: 300px;
+    position: absolute;
+    top:234px;
+    border-radius: 0px 0px 59px 57px;
+}
+
+.bold{
+    text-align: center;
+    margin-top: 15px;
+}
+.bold h1{
+    font-size: 47px;
+}
+.bold h6{
+    margin-top: -9px;
+    font-size: 11px;
+    color:gray;
+}
+
+.line{
+    border-top: 1px solid rgb(15, 15, 15);
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 34px;
+
+
+}
+.icons h3{
+    font-size: 12px;
+    text-align: center;
+    color:gray;
+}
+
+.allicons{
+    text-align: center;
+    margin-top: 28px;
+   
+}
+
+.allicons i{
+    margin-left: 10px;
+    background-color: rgb(177, 96, 96);
+    border-radius: 10px;
+    width: 22px;
+    height: 22px;
+    padding: 4px 0px 0px 0px;
+     size: 1px;
+   
+}
+.fa-facebook{
+    color: #e9ecef;
+    
+}
+.fa-twitter{
+    color: #e9ecef;
+}
+.fa-linkedin-in{
+    color: #e9ecef;
+}
